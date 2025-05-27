@@ -9,15 +9,10 @@ Este projeto é uma aplicação web que permite buscar informações completas s
 ## 🎮 Funcionalidades
 
 - 🔎 Buscar Pokémon por nome ou ID
-- 
 - 📷 Ver imagem e ID oficial do Pokémon
-- 
 - 💪 Exibir habilidades e estatísticas base
-- 
 - 🌱 Mostrar linha de evolução completa
-- 
 - ⬆️⬇️ Navegação entre Pokémon anterior/próximo
-- 
 - 🎨 Interface simples e intuitiva
 
 ---
@@ -25,11 +20,8 @@ Este projeto é uma aplicação web que permite buscar informações completas s
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
-- 
 - CSS3
-- 
 - JavaScript (puro)
-- 
 - [PokéAPI](https://pokeapi.co/)
 
 ---
