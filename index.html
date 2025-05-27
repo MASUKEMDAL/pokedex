@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex - Design Personalizado</title>
+
+  <!-- Link para o CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="pokedex-container">
+
+        <!-- Lado Esquerdo da Pokedex -->
+        <div class="pokedex-left">
+            <div class="top-elements">
+                <div class="light-row">
+                    <div class="large-blue-light"></div>
+                    <div class="small-lights">
+                        <div class="small-light red"></div>
+                        <div class="small-light yellow"></div>
+                        <div class="small-light green"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-screen-area">
+                <div class="screen-border">
+                    <div class="red-dots-top">
+                        <div class="red-dot"></div>
+                        <div class="red-dot"></div>
+                    </div>
+                    <div class="main-screen">
+                        <!-- O conteúdo da Pokedex (informações do Pokémon) virá aqui -->
+                        <div id="pokemon-display">
+                            <p class="loading-message">Digite o nome de um Pokémon e pesquise!</p>
+                        </div>
+                    </div>
+                    <div class="speaker-area">
+                        <div class="speaker-line"></div>
+                        <div class="speaker-line"></div>
+                        <div class="speaker-line"></div>
+                        <div class="speaker-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-buttons-area">
+                <div class="round-button black"></div>
+                <div class="central-buttons">
+                    <div class="central-button red"></div>
+                    <div class="central-button blue"></div>
+                </div>
+                <div class="d-pad">
+                    <div class="d-pad-center"></div>
+                    <!-- Adicionando divs para simular as setas clicáveis -->
+                    <div class="d-pad-up" id="prev-pokemon"></div>
+                    <div class="d-pad-down" id="next-pokemon"></div>
+                    <div class="d-pad-left"></div>
+                    <div class="d-pad-right"></div>
+                </div>
+                <div class="green-button acrylic"></div>
+            </div>
+        </div>
+
+        <!-- Lado Direito da Pokedex -->
+        <div class="pokedex-right">
+             <div class="search-area">
+                <input type="text" id="pokemon-name-input" class="search-input" placeholder="Nome do Pokémon">
+                <button id="search-button" class="search-button">Pesquisar</button>
+            </div>
+            <div class="small-screen">
+                <!-- Talvez para exibir informações adicionais ou um mapa? -->
+            </div>
+            <div class="blue-buttons-grid">
+                <div class="blue-button"></div>
+                <div class="blue-button"></div>
+                <div class="blue-button"></div>
+                <div class="blue-button"></div>
+                <div class="blue-button"></div>
+                <div class="blue-button"></div>
+                <div class="blue-button"></div>
+                <div class="blue-button"></div>
+                <div class="blue-button"></div>
+                <div class="blue-button"></div>
+            </div>
+            <div class="bottom-elements-right">
+                 <div class="black-dots-bottom">
+                    <div class="black-dot"></div>
+                    <div class="black-dot"></div>
+                </div>
+                <div class="white-buttons">
+                    <div class="white-button"></div>
+                    <div class="white-button"></div>
+                </div>
+                <div class="yellow-light"></div>
+            </div>
+             <div class="mini-screens">
+                <div class="mini-screen"></div>
+                <div class="mini-screen"></div>
+            </div>
+        </div>
+    </div>
+
+ <!-- Link para o JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
